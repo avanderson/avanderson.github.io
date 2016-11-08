@@ -1,66 +1,82 @@
 <!DOCTYPE html>
 <head>
+
 	<title>Lucy Anderson Bespoke</title>
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="jquery.js"></script>
+		<script src="bxslider/jquery.bxslider.min.js"></script>
+		<link href="bxslider/jquery.bxslider.css" rel="stylesheet">
+
 		<link href='lucybootstrap/css/bootstrap.css' rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
+
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Amiri|Lobster+Two" rel="stylesheet">
+
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCegAyxY7LcvXX4MV4dH620nAna8ATfccY"></script>
+		<script type="text/javascript" src="googlemap/jquery.googlemap.js"></script>
+
 </head>
+
 <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 
 <body>
-<div id="header">
-	<h1>Lucy Anderson</h1>
-	<h2>Bespoke Wedding Dresses</h2>
-	<nav class="fixed-nav-bar">
-	<ul>
-		<li><strong>About</strong></li>
-		<li><strong> Gallery </strong></li>
-		<li><strong> How it works</strong></li>
-		<li><strong>Testimonials </strong></li>
-		<li><strong> Contact </strong></li>
-	</nav>	
-	</ul>	
+	<div id="header">
+		<h1>Lucy Anderson</h1>
+		<h2>Bespoke Wedding Dresses</h2>
+		<nav class="fixed-nav-bar">
+		<ul>
+			<li><strong>About</strong></li>
+			<li><strong> Gallery </strong></li>
+			<li><strong> How it works</strong></li>
+			<li><strong>Testimonials </strong></li>
+			<li><strong> Contact </strong></li>
+		</nav>	
+		</ul>
+	</div>	
 
-<div id="method">
+	<ul class="bxslider">
+		<li><img src="Alice_coding/0Pic1.jpg"></li>
+		<li><img src="Alice_coding/0Pic2.jpg"></li>
+		<li><img src="Alice_coding/0Pic3.jpg"></li>
+		<li><img src="Alice_coding/0Pic4.jpg"></li>
+		<li><img src="Alice_coding/0Pic5.jpg"></li>
+	</ul>
 
-<h3>Lucy's method</h3>
+	<h3>Lucy's method</h3>
 
-<div class="row">
-    <div class="col-sm-4">
-      <div>
-        <img src='Alice_coding/Lizzy  Jake 192.jpg' class="img-circle img-responsive center-block">
-        <blockquote>
-        <p><strong>Step 1</strong><p>Meet Lucy and discuss designs</p></p>
-        </blockquote>
-    </div>
-    </div>
-	
-	<div class="col-sm-4">
-	<div>
-        <img src='Alice_coding/charlotte.jpg' class="img-circle img-responsive center-block">
-        <blockquote>
-        <p><strong>Step 2</strong><p>She will sketch out your ideas and take measurements</p></p>
-        </blockquote>
-    </div>
-    </div>
+	<div class="row">
+	    <div class="col-sm-4">
+	        <img src='Alice_coding/Lizzy  Jake 192.jpg' class="img-circle img-responsive center-block">
+	        <blockquote>
+	        <h4><p><strong>Step 1</strong><p>Meet Lucy and discuss designs</p></p>
+	        </blockquote></h4>
+	    </div>
+		
+		<div class="col-sm-4">
+	        <img src='Alice_coding/charlotte.jpg' class="img-circle img-responsive center-block">
+	        <blockquote>
+	        <h4><p><strong>Step 2</strong><p>She will sketch out your ideas and take measurements</p></p></h4>
+	        </blockquote>
+	    </div>
 
-    <div class="col-sm-4">
-	<div>
-        <img src='Alice_coding/ls220815w167-683x1024.jpg' class="img-circle img-responsive center-block">
-        <blockquote>
-        <p><strong>Step 3</strong><p>And make your dreams a reality!</p></p>
-        </blockquote>
-    </div>
-    </div>
-</div>
-</div>
+	    <div class="col-sm-4">
+	        <img src='Alice_coding/ls220815w167-683x1024.jpg' class="img-circle img-responsive center-block">
+	        <blockquote>
+	        <h4><p><strong>Step 3</strong><p>And make your dreams a reality!</p></p>
+	        </blockquote></h4>
+	    </div>
+	</div>
 
-<div class="row footer">
-	<input type="email" placeholder="Email Address">
-	<input type="Submit">
-</div>
-</div>
+	<div id="map" style="width: 400px; height: 400px;"></div>
+
+
+
+	<div class="row footer">
+		<input type="email" placeholder="Email Address">
+		<input type="Submit">
+	</div>
 
 </body>
