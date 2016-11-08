@@ -16,10 +16,17 @@ h2 {
 	color: #2e8b57;
 	font-family: 'Lobster Two', cursive;
 	font-size: 35px;
-	margin: 0px 0 70px 0;
+	margin: 0px 0 20px 0;
 }
 h3 {
-	text-align: left;
+	text-align: center;
+	color: #2e8b57;
+	font-family:'Amiri', serif;
+	margin: 0px 0 50px 0;
+}
+
+h4 {
+	text-align:center;
 	color: #2e8b57;
 	font-family:'Amiri', serif;
 }
@@ -46,6 +53,7 @@ li  {
 	font-size: 20px;
 	margin: 0px 0 0px 0;
 }
+
 .fixed-nav-bar {
 	position: fixed;
 	top: 0;
@@ -67,15 +75,10 @@ input[type="Submit"] {
 	background: #2e8b57;
 	color: black;
 }
+
 .footer {
-	position: fixed;
+	position:bottom;
 	bottom: 0;
 	left: 0;
-}
-img {
-	height: 20px;
-}
-.row {
-	min-height: 100px;
 }
 
