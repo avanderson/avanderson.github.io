@@ -1,5 +1,5 @@
 body {
-	margin: 0px;
+	margin: 10px;
 	background: #d9d9d9;
 }
 h1 {
@@ -8,7 +8,7 @@ h1 {
 	color: #2e8b57;
 	font-family:  'Dancing Script', cursive;
 	font-size: 75px;
-	margin: 70px 0 0 0;
+	margin: 20px 0 10px 0;
 }
 h2 {
 	text-align: center;
@@ -22,14 +22,22 @@ h3 {
 	text-align: center;
 	color: #2e8b57;
 	font-family:'Amiri', serif;
-	margin: 50px 0 50px 0;
-	font-size: 45px;
+	margin: 40px 0 20px 0;
+	font-size: 35px;
 }
 
 h4 {
 	text-align:center;
 	color: #2e8b57;
 	font-family:'Amiri', serif;
+	font-size:20px;
+}
+
+h5 {
+	text-align:left;
+	color: #2e8b57;
+	font-family:'Amiri', serif;
+	font-size:20px;
 }
 
 }
@@ -52,7 +60,7 @@ li  {
 	padding: 0px 30px 0px 30px;
 	text-decoration: none;
 	font-size: 20px;
-	margin: 0px 0 0px 0;
+	margin: 0 0 0 0;
 }
 
 .fixed-nav-bar {
@@ -65,33 +73,35 @@ li  {
 	background: #d9d9d9; 
 }
 input {
-	border: 0;
+	border: 10px;
 	padding:10px;
 	font-size:18px;
-	position: relative;
+	position: center;
 	left: 590px;
 	bottom: 0px;
+	margin:10px 0px 10px 0px;
 }
+
 input[type="Submit"] {
 	background: #2e8b57;
 	color: black;
 }
 
 .footer {
-	position:bottom;
+	position: relative;
 	bottom: 0;
 	left: 0;
 }
 .bxslider img {
 		margin: 0 auto;
+		max-height: 700px;
 }
 .social-buttons {
-	position: fixed;
+	position: right;
 	bottom: 0;
 	right:0;	
 }
 .contact-info {
-	position: relative;
 	left:1050px;
 	bottom:330px;
 	color:#2e8b57;
