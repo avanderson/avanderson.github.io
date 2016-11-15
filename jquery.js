@@ -14,7 +14,6 @@ $(".bxslider").bxSlider({
 	pager: false,
 	moceSlideQty: 1,
 	useCSS: false,	
-	adaptiveHeight: true
 });
 
 $(function() {
@@ -25,9 +24,17 @@ $(function() {
     });
 		})
 
-$("#contactUs").click(function () {
-	$("dialog").dialog("open");
-	return false;
+$(".h1").hover(function() {
+	$(this).css("color","white")
+});
+
+$("h1").on({
+	mouseenter: function(){
+    	$(this).css("color", "white");
+	}, 
+	mouseleave: function(){
+    	$(this).css("color", "#2e8b57");
+    }
 });
 
 });
